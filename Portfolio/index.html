@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <title>Harman Portfolio Website</title>
+    <!-- This is the title of the webpage you would see the tab -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- THIS IS WHERE THE CSS GOES-->
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="img/logo.png"
+          alt="If I have a business or anything that has a logo"
+          class="logo-img"
+        />
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="menu"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <!-- Holds all navigation tabs for other sections -->
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong> Harman Mann</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <strong> Software Developer</strong>
+      </p>
+      <img
+        src="img/Profile-01.png"
+        alt="a picture of Harman Mann, same as linkedin"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Play video games</h3>
+          <p>
+            Words Words Words Words Words Words Words Words Words Words Words
+            Words Words Words Words Words Words
+          </p>
+        </div>
+        <!-- /Service 1 -->
+
+        <div class="service">
+          <h3>Sleep</h3>
+          <p>
+            Words Words Words Words Words Words Words Words Words Words Words
+            Words Words Words Words Words Words
+          </p>
+        </div>
+        <!-- /Service 2 -->
+
+        <div class="service">
+          <h3>Eat</h3>
+          <p>
+            Words Words Words Words Words Words Words Words Words Words Words
+            Words Words Words Words Words Words
+          </p>
+        </div>
+        <!-- /Service 3 -->
+      </div>
+      <!-- /Services -->
+
+      <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who am I</h2>
+      <p class="section__subtitle section__subtitle--about">I Like Games</p>
+
+      <div class="about-me__body">
+        <p>
+          Words Words Words Words Words Words Words Words Words Words Words
+          Words Words Words Words Words Words
+        </p>
+        <p>
+          Words Words Words Words Words Words Words Words Words Words Words
+          Words Words Words Words Words Words
+        </p>
+      </div>
+      <img
+        src="img/Profile-02.png"
+        alt="Another picture of Harman Mann in a Suit"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my Projects
+      </p>
+
+      <div class="portfolio">
+        <a href="portfolio-item-01.html" class="portfolio__item">
+          <img
+            src="img/portfolio-01.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="portfolio-item-02.html" class="portfolio__item">
+          <img
+            src="img/portfolio-02.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="portfolio-item-03.html" class="portfolio__item">
+          <img
+            src="img/portfolio-03.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="portfolio-item-04.html" class="portfolio__item">
+          <img
+            src="img/portfolio-04.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="portfolio-item-05.html" class="portfolio__item">
+          <img
+            src="img/portfolio-05.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="portfolio-item-06.html" class="portfolio__item">
+          <img
+            src="img/portfolio-06.jpg"
+            alt="Video gaming"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Try adding some icons e-mail, git, linkedin at minimum-->
+    <footer class="footer">
+      <a href="mailto:harmany@hotmail.ca" class="footer__link">E-mail</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/HarmanSMann">
+            Github</a
+          >
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/harman-mann-79a87a1a0/"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
