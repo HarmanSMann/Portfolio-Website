@@ -3,6 +3,9 @@ Created my first Portfolio using a YouTube tutorial: https://www.youtube.com/wat
 
 
 <img src="Screenshot (82).png">
+<img src="Screenshot (83).png">
+<img src="Screenshot (84).png">
+<img src="Screenshot (85).png">
 
 I added screenshots of how a completed web portfolio would look like - May 02, 2022
 
